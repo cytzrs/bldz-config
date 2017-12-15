@@ -1,3 +1,3 @@
-foo: modify--again-foo version 2
+foo: modify--again-foo version 2111
 democonfigclient:
-  message: hello spring io--again-modify
+  message: hello spring io--again-m1111odify

@@ -1,3 +1,5 @@
 foo: dev-foo
 server:
   port: 8866
+am:
+  ok: yes

@@ -1,4 +1,5 @@
 auth:
+  foo: test foo in auth
   registry:
     address: http://bldz-service-center-01:8662/eureka/,http://bldz-service-center:8661/eureka/
   application:

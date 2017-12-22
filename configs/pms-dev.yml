@@ -19,3 +19,8 @@ config:
   discovery:
     enabled: true
     serviceId: bldz-config-center
+pms.git:
+  uri: https://github.com/cytzrs/bldz-config
+  searchPaths: configs
+  username:
+  password:  

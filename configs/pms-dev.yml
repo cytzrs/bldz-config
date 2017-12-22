@@ -6,3 +6,16 @@ am:
 test:
   port: 9901
   name: name in config
+registry:
+  address: http://bldz-service-center-01:8771/eureka/,http://bldz-service-center:8761/eureka/
+rabbitmq:
+  host: 192.168.98.181
+  port: 5672
+  username: guest
+  password: guest
+config:
+  label: dev
+  profile: dev
+  discovery:
+    enabled: true
+    serviceId: bldz-config-center

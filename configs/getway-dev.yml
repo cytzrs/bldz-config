@@ -8,6 +8,9 @@ getway:
         path: /auth/**
         serviceId: auth
   registry:
-    address: http://bldz-service-center-01:8771/eureka/,http://bldz-service-center:8761/eureka/
+    address: http://bldz-service-center-01:8662/eureka/,http://bldz-service-center:8661/eureka/
   application:
     name: getway
+  ctl:
+    server:
+      address: localhost

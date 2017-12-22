@@ -1,25 +1,25 @@
-foo: dev-foo
-server:
-  address: localhost
-am:
-  ok: yes
-test:
-  port: 9901
-  name: name in config
-registry:
-  address: http://bldz-service-center-01:8771/eureka/,http://bldz-service-center:8761/eureka/
-rabbit:
-  host: 192.168.98.181
-  port: 5672
-  username: guest
-  password: guest
-config:
-  label: dev
-  profile: dev
-  discovery:
-    enabled: true
-    serviceId: bldz-config-center
 pms:
+  foo: dev-foo
+  server:
+    address: localhost
+  am:
+    ok: yes
+  application:
+    port: 9901
+    name: name in config
+  registry:
+    address: http://bldz-service-center-01:8771/eureka/,http://bldz-service-center:8761/eureka/
+  rabbit:
+    host: 192.168.98.181
+    port: 5672
+    username: guest
+    password: guest
+  config:
+    label: dev
+    profile: dev
+    discovery:
+      enabled: true
+      serviceId: bldz-config-center
   git:
     uri: https://github.com/cytzrs/bldz-config
     searchPaths: configs

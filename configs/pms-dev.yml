@@ -3,3 +3,6 @@ server:
   port: 8866
 am:
   ok: yes
+test:
+  port: 9901
+  name: name in config

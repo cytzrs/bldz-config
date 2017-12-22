@@ -24,3 +24,7 @@ pms:
     searchPaths: configs
     username:
     password:
+  ctl:
+    server:
+      address: localhost
+  

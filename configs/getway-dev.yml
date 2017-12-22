@@ -2,10 +2,10 @@ getway:
   zuul:
     routes:
       pms:
-	path: /pms/**
+        path: /pms/**
         serviceId: pms
       auth:
-	path: /auth/**
+        path: /auth/**
         serviceId: auth
   registry:
     address: http://bldz-service-center-01:8771/eureka/,http://bldz-service-center:8761/eureka/
